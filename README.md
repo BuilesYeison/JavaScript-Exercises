@@ -19,7 +19,11 @@ Setting jest: y,n,node,y,v8,y
 ```console
 npx jest --init
 ```
-The test runs each save: add in the package.json file in scripts:
+The test runs for each save: add in the package.json file in scripts:
 ```json
 "test:watch": "jest --watchAll"
+```
+Run test:
+```console
+npm run test:watch
 ```
