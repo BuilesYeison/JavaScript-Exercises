@@ -7,8 +7,19 @@ Print numbers from 1 to x, when the number is multiple of 3 print fizz, if the n
 Use JS testing: "jest" from facebook
 
 # Setting environment:
-Install jest in development mode
+Create an node project
 ```console
 npm init
+```
+Install jest in development mode
+```console
 npm i -D jest
+```
+Setting jest: y,n,node,y,v8,y
+```console
+npx jest --init
+```
+The test runs each save: add in the package.json file in scripts:
+```json
+"test:watch": "jest --watchAll"
 ```
