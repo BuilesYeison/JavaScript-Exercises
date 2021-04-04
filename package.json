@@ -1,0 +1,23 @@
+{
+  "name": "JavaScript-Exercises",
+  "version": "1.0.0",
+  "description": "Some of exercises for increase js and logic skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuilesYeison/JavaScript-Exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuilesYeison/JavaScript-Exercises/issues"
+  },
+  "homepage": "https://github.com/BuilesYeison/JavaScript-Exercises#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
